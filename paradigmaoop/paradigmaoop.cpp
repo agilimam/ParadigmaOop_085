@@ -35,6 +35,15 @@ public:
 	}
 };
 
+int main() {
+	pelajar siswa1("Andi Laksono", "SMAN1 Bantul");
+	cout << siswa1.perkenalan();
+	cout << "hasil = " << siswa1.jumlah(10, 90) << endl;
+
+	return 0;
+}
+
+
 
 
 	
