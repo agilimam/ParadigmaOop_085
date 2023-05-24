@@ -20,6 +20,21 @@ public:
 
 class pelajar : public orang {
 public:
+	string sekolah;
+
+	pelajar(string pnama, string psekolah) :
+		orang(pnama),
+		sekolah(psekolah) {
+		cout << "pelajar dibuat\n" << endl;
+	}
+	~pelajar() {
+		cout << "pelajar dihapus\n" << endl;
+	}
+	string perkenalan() {
+		return "Hallo Nama Saya" + nama + "Dari sekolah" + sekolah + "\n\n";
+	}
 };
+
+
 
 	
