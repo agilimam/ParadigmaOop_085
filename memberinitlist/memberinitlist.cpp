@@ -8,3 +8,8 @@ private:
 	string nama;
 	float nilai;
 };
+public:
+	mahasiswa(int pid, string pNama, float pNilai) :id(pid), nama(pNama), nilai(pNilai) { // Member initialization list
+		// Definisi
+
+	}
